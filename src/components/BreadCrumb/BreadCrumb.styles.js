@@ -16,6 +16,15 @@ export const Content = styled.div`
     max-width: var(--maxWidth);
     padding: 0 20px;
 
+    a {
+        text-decoration: none;
+        cursor: pointer;
+        :hover {
+            color: blue;
+            text-decoration: underline;
+        }
+    }
+
     span {
         color: var(--white);
         font-size: var(--fontMed);
